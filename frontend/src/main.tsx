@@ -1,6 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import "@fontsource-variable/plus-jakarta-sans/wght.css";
+
 import App from "./App.tsx";
 import { BrowserRouter } from "react-router";
 
