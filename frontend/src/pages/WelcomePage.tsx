@@ -1,8 +1,10 @@
-import NavBar from "../components/layout/NavBar";
+import MainLayout from "../components/layout/MainLayout";
 const WelcomePage = () => {
   return (
     <>
-      <NavBar />
+      <MainLayout>
+        <div className=""></div>
+      </MainLayout>
     </>
   );
 };
