@@ -1,9 +1,14 @@
-function App() {
+import { Routes, Route } from "react-router";
+import WelcomePage from "./pages/WelcomePage";
+
+const App = () => {
   return (
     <>
-      <p className="bg-white-custom">Hello world</p>
+      <Routes>
+        <Route path="/" element={<WelcomePage />} />
+      </Routes>
     </>
   );
-}
+};
 
 export default App;
